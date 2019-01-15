@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.wrap{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../slike/biznis.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.main-nav{
+    float: right;
+    list-style:none;
+    margin-top: 45px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.main-nav li .active a{
+    border: 1px solid white;
+}
+.main-nav li a:hover{
+    border: 1px solid white;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.text-wrap {
+    max-width: 700px;
+    margin: 120px auto;
+}
+
+.hero{
+    width: 100%;
+    margin-top: 0;
+}
+
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 275px;
+}
+.button{
+    left:  0;
+    right: 0;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+.btn-two{
+    font-family: "Roboto", sans-serif;
+}
+.btn-two:hover{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+#footer{
+	padding: 20px;
+	background-color: #34495e;
+	height: 155 auto;
+}
+a{
+color:#000;
+text-decoration: none;
+}
+
+.inner-wrap {
+	max-width: 100%;
+	text-align: center;
+	
+
+}
+
+.wrap-footer {
+	background-color: white;
+	color:#000;
+	padding: 80px;
+	display: inline-block;
+	margin-right: 30px;
+} 
+   
+
+    @media only screen and (max-width: 600px) {
+        .wrap-footer {
+            background-color: olive;
+            color: white;
+            display: block;
+            width: 100%;
+          }
+    }
+
+.wrap:last-child{
+	margin-right: 0;
+}
+
